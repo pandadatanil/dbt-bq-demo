@@ -14,4 +14,4 @@ FROM
 JOIN
     {{ ref("stg_customers") }} c ON o.Customer_ID = c.Customer_ID
 JOIN
-    raw.products p ON o.Product_ID = p.Product_ID
+    raw.products p ON o.Product_ID = p.Product_ID 
